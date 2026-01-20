@@ -1,0 +1,19 @@
+# Input ligands
+LIGANDS_DIR=/path/to/mae_files
+
+# Outputs
+MOL2_OUTPUT_DIR=/path/to/mol2_files
+PDBQT_OUTPUT_DIR=/path/to/pdbqt_files
+
+# Schrodinger
+SCHRODINGER_RUN=/path/to/schrodinger/run
+
+# MGLTools
+MGLTOOLS_PYTHONSH=/path/to/MGLTools/bin/pythonsh
+PREPARE_LIGAND_SCRIPT=/path/to/MGLTools/Utilities24/prepare_ligand4.py
+
+# Parallelism
+N_PROCS=56
+
+# Logging
+LOG_FILE=ligand_conversion.log

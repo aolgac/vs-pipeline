@@ -1,0 +1,5 @@
+[glide]
+input_dir  = data/glide_docking_inputs
+glide_exec = glide
+host       = localhost:XX
+threads    = XX

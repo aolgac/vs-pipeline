@@ -1,0 +1,2 @@
+INPUT_DIR=/path/to/vina_outputs
+OUTPUT_DIR=/path/to/vina_outputs/model1

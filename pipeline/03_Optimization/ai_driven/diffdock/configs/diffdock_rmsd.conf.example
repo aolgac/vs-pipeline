@@ -1,0 +1,8 @@
+# Directory containing reference ligands (.pdb)
+ref_dir = path/to/reference_pdb
+
+# Directory containing predicted poses (.sdf)
+pose_dir = path/to/inference_results
+
+# Output CSV file to save RMSD results
+output_file = path/to/diffdock_rmsd_rms_cur.csv

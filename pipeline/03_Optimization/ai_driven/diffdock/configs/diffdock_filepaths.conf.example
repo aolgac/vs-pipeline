@@ -1,0 +1,5 @@
+# Directory containing protein and ligand files
+input_directory = path/to/protein_and_ligand_files
+
+# Output CSV file that lists all complexes
+output_csv = path/to/output/diffdock_file_paths.csv

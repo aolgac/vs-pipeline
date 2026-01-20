@@ -1,0 +1,6 @@
+[schrodinger]
+ligprep = ligprep
+
+[ligands]
+input_dir = data/ligands_raw
+output_dir = data/ligands_prepared

@@ -1,0 +1,4 @@
+[grid]
+receptor_dir = data/receptors_prepared
+output_dir   = data/glide_grids
+grid_center  = X,Y,Z

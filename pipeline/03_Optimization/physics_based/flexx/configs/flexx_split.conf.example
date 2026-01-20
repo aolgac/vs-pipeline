@@ -1,0 +1,4 @@
+{
+  "input_sdf_dir": "flexx_outputs",
+  "required_suffix": "_01"
+}

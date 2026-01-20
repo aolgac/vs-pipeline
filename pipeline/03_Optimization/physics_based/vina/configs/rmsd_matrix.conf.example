@@ -1,0 +1,2 @@
+INPUT_CSV=/path/to/rmsd_results.csv
+OUTPUT_FILE=/path/to/vina_rmsd_matrix.xlsx

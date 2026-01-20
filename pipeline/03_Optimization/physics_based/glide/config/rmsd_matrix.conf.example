@@ -1,0 +1,8 @@
+[input]
+rmsd_csv = results/glide_rmsd_results.csv
+
+[parsing]
+pose_grid_regex = grid_([0-9A-Za-z]+_[A-Za-z]+)
+
+[output]
+matrix_xlsx = results/glide_rmsd_matrix.xlsx

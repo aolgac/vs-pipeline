@@ -1,0 +1,11 @@
+input_csv = "results/rmsd_matrices/gnina_rmsd_matrix.csv"
+output_png = "results/heatmaps/gnina_rmsd_heatmap.png"
+figure_size = (20, 14)      # width x height in inches
+dpi = 300
+colors = ["green", "yellow", "red"]
+boundaries = [0, 2, 4, 22]
+annot = True
+fmt = ".2f"
+fontsize_labels = 14
+fontsize_title = 18
+fontsize_cbar = 14

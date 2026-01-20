@@ -1,0 +1,8 @@
+# Directory containing receptor PDB files
+PDB_DIR=/path/to/pdb_files
+
+# MGLTools python interpreter
+MGLTOOLS_PYTHONSH=/path/to/MGLTools/bin/pythonsh
+
+# AutoDockTools receptor preparation script
+PREPARE_RECEPTOR_SCRIPT=/path/to/MGLTools/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py

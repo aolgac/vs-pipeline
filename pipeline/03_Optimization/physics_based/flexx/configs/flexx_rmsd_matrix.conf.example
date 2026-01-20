@@ -1,0 +1,8 @@
+{
+  "input_csv": "flexx_rmsd.csv",
+  "index_column": "Reference",
+  "pose_column": "Pose",
+  "value_column": "RMSD",
+  "grid_regex": "([^_]+(?:_[A-Za-z]+)?)",
+  "output_xlsx": "flexx_rmsd_matrix.xlsx"
+}

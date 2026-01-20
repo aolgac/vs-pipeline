@@ -1,0 +1,7 @@
+[input]
+reference_dir = data/reference_ligands_pdb
+pose_dir      = data/glide_selected_poses
+
+[output]
+csv = results/glide_rmsd_results.csv
+log = logs/glide_rmsd.log

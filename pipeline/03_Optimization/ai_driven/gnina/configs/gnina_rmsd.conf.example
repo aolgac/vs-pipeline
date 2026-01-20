@@ -1,0 +1,4 @@
+ref_dir = "data/ligands"
+pose_dir = "data/poses"
+output_file = "results/rmsd/gnina_rmsd.csv"
+log_file = "results/logs/gnina_rmsd.log"

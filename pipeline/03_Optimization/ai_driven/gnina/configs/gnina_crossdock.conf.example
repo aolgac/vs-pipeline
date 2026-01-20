@@ -1,0 +1,6 @@
+ligands_folder = "data/ligands"
+proteins_folder = "data/receptors"
+output_folder = "results/poses"
+log_file = "results/logs/docking_log.txt"
+default_ligand = "default_ligand.sdf"
+seed = 1

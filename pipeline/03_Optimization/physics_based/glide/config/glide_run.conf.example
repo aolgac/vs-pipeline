@@ -1,0 +1,4 @@
+[glide]
+input_dir  = data/glide_grids
+glide_exec = glide
+host       = localhost:XX

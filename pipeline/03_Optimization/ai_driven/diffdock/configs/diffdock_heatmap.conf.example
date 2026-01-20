@@ -1,0 +1,2 @@
+rmsd_matrix_file = "results/diffdock_rmsd_matrix_rms_cur.xlsx"
+heatmap_output_file = "results/diffdock_rmsd_heatmap_rms_cur.png"

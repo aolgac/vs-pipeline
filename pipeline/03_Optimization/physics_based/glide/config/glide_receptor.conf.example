@@ -1,0 +1,6 @@
+[schrodinger]
+prepwizard = prepwizard
+
+[receptors]
+input_dir = data/receptors_raw
+output_dir = data/receptors_prepared

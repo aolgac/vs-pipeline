@@ -1,0 +1,2 @@
+input_dir = "data/docking"
+output_dir = "results/split_sdf"

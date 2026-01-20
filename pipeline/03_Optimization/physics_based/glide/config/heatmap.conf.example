@@ -1,0 +1,9 @@
+[input]
+matrix_xlsx = results/glide_htvs_rmsd_matrix.xlsx
+
+[plot]
+title = RMSD Heatmap (Glide HTVS)
+rmsd_boundaries = 0,2,4,x
+
+[output]
+heatmap_png = results/glide_htvs_rmsd_heatmap.png

@@ -1,0 +1,8 @@
+{
+  "ligands_sdf": "ligands/all_ligands.sdf",
+  "proteins_dir": "proteins",
+  "reference_ligands_dir": "reference_ligands",
+  "default_ref_ligand": "default_ligand.sdf",
+  "output_dir": "flexx_results",
+  "log_file": "flexx_crossdock.log"
+}

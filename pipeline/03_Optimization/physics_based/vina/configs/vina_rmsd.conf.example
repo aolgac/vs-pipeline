@@ -1,0 +1,3 @@
+REFERENCE_DIR=/path/to/reference_pdbs
+POSE_DIR=/path/to/vina_model1_outputs
+OUTPUT_CSV=/path/to/rmsd_results.csv

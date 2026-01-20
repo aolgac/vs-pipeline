@@ -1,0 +1,5 @@
+# Directory where DiffDock outputs are located
+input_dir = path/to/inference_results
+
+# Destination directory to collect all rank1.sdf files
+output_dir = path/to/save/results

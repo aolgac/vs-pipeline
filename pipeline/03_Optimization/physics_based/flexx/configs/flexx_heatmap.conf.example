@@ -1,0 +1,19 @@
+{
+  "input_matrix": "flexx_rmsd_matrix.xlsx",
+  "output_png": "flexx_rmsd_heatmap.png",
+  "colors": ["green", "yellow", "red"],
+  "boundaries": [0, 2, 4, 22],
+  "n_bins": 100,
+  "figsize": [98, 70],
+  "annot": true,
+  "fmt": ".2f",
+  "xlabel": "Target",
+  "ylabel": "Reference",
+  "title": "RMSD Heatmap of FlexX",
+  "label_fontsize": 50,
+  "title_fontsize": 60,
+  "cbar_label": "RMSD",
+  "cbar_tick_fontsize": 45,
+  "cbar_label_fontsize": 50,
+  "dpi": 300
+}

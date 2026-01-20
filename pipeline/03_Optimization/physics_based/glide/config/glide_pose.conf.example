@@ -1,0 +1,12 @@
+[general]
+threads = XX
+
+[schrodinger]
+run = run
+
+[input]
+maegz_dir = data/glide_outputs
+
+[output]
+ligand_dir = data/ligands_mae
+rmsd_dir   = data/rmsd_input

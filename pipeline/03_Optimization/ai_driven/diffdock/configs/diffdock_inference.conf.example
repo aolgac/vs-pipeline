@@ -1,0 +1,8 @@
+# CSV file listing protein-ligand complexes
+protein_ligand_csv = path/to/diffdock_file_paths.csv
+
+# Directory to save inference results
+out_dir = path/to/results
+
+# Log file for inference
+log_file = path/to/diffdock_inference.log

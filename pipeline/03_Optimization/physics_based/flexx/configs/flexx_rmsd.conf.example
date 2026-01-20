@@ -1,0 +1,10 @@
+{
+  "ref_dir": "reference_pdb",
+  "pose_dir": "flexx_results",
+  "ref_ext": ".pdb",
+  "pose_ext": ".sdf",
+  "ref_strip": "_-_prepared",
+  "pose_split": "_docked_",
+  "pose_trim": "_",
+  "output_csv": "flexx_rmsd.csv"
+}

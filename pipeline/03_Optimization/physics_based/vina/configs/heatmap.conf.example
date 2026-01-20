@@ -1,0 +1,2 @@
+MATRIX_FILE=/path/to/vina_rmsd_matrix.xlsx
+OUTPUT_PNG=/path/to/vina_rmsd_heatmap.png

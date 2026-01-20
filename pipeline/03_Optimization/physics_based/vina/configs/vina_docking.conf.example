@@ -1,0 +1,14 @@
+# Inputs
+PROTEIN_DIR=/path/to/protein_pdbqt
+LIGAND_DIR=/path/to/ligand_pdbqt
+OUTPUT_DIR=/path/to/results
+
+# Vina
+VINA_BINARY=/path/to/vina
+VINA_CONFIG=/path/to/vina_grid.conf   # contains center/size (example only)
+
+# Parallelism
+N_PROCS=32
+
+# Logging
+LOG_FILE=vina_crossdocking.log
