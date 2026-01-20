@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1582pt" height="472pt" viewBox="0.00 0.00 1582.00 472.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 468.4)">
+<title>VS_Pipeline</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-468.4 1577.53,-468.4 1577.53,4 -4,4"/>
+<text xml:space="preserve" text-anchor="middle" x="786.77" y="-440.6" font-family="Times,serif" font-size="22.00">VS-Pipeline</text>
+<g id="clust1" class="cluster">
+<title>cluster_physics</title>
+<path fill="none" stroke="#a6a6a6" stroke-dasharray="5,2" d="M217.84,-215C217.84,-215 878.37,-215 878.37,-215 884.37,-215 890.37,-221 890.37,-227 890.37,-227 890.37,-410 890.37,-410 890.37,-416 884.37,-422 878.37,-422 878.37,-422 217.84,-422 217.84,-422 211.84,-422 205.84,-416 205.84,-410 205.84,-410 205.84,-227 205.84,-227 205.84,-221 211.84,-215 217.84,-215"/>
+<text xml:space="preserve" text-anchor="middle" x="548.11" y="-401.8" font-family="Times,serif" font-size="18.00">Physics-Based Virtual Screening</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_ai</title>
+<path fill="none" stroke="#a6a6a6" stroke-dasharray="5,2" d="M209.29,-8C209.29,-8 886.93,-8 886.93,-8 892.93,-8 898.93,-14 898.93,-20 898.93,-20 898.93,-143 898.93,-143 898.93,-149 892.93,-155 886.93,-155 886.93,-155 209.29,-155 209.29,-155 203.29,-155 197.29,-149 197.29,-143 197.29,-143 197.29,-20 197.29,-20 197.29,-14 203.29,-8 209.29,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="548.11" y="-134.8" font-family="Times,serif" font-size="18.00">AI-Driven Virtual Screening</text>
+</g>
+<!-- Stage01_Data -->
+<g id="node1" class="node">
+<title>Stage01_Data</title>
+<path fill="none" stroke="#1f77b4" stroke-width="2" d="M157.29,-273.2C157.29,-273.2 12,-273.2 12,-273.2 6,-273.2 0,-267.2 0,-261.2 0,-261.2 0,-226.8 0,-226.8 0,-220.8 6,-214.8 12,-214.8 12,-214.8 157.29,-214.8 157.29,-214.8 163.29,-214.8 169.29,-220.8 169.29,-226.8 169.29,-226.8 169.29,-261.2 169.29,-261.2 169.29,-267.2 163.29,-273.2 157.29,-273.2"/>
+<text xml:space="preserve" text-anchor="middle" x="84.64" y="-256.6" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 01</text>
+<text xml:space="preserve" text-anchor="middle" x="84.64" y="-239.8" font-family="Helvetica,sans-Serif" font-size="14.00">Bioactivity Data Curation</text>
+<text xml:space="preserve" text-anchor="middle" x="84.64" y="-223" font-family="Helvetica,sans-Serif" font-size="14.00">&amp; Standardization</text>
+</g>
+<!-- Opt_Vina -->
+<g id="node3" class="node">
+<title>Opt_Vina</title>
+<path fill="none" stroke="#9467bd" stroke-width="2" d="M392.89,-264.8C392.89,-264.8 229.73,-264.8 229.73,-264.8 223.73,-264.8 217.73,-258.8 217.73,-252.8 217.73,-252.8 217.73,-235.2 217.73,-235.2 217.73,-229.2 223.73,-223.2 229.73,-223.2 229.73,-223.2 392.89,-223.2 392.89,-223.2 398.89,-223.2 404.89,-229.2 404.89,-235.2 404.89,-235.2 404.89,-252.8 404.89,-252.8 404.89,-258.8 398.89,-264.8 392.89,-264.8"/>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-248.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 03</text>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-231.4" font-family="Helvetica,sans-Serif" font-size="14.00">Vina Workflow Optimization</text>
+</g>
+<!-- Stage01_Data&#45;&gt;Opt_Vina -->
+<g id="edge1" class="edge">
+<title>Stage01_Data-&gt;Opt_Vina</title>
+<path fill="none" stroke="black" d="M170.26,-244C181.76,-244 193.67,-244 205.48,-244"/>
+<polygon fill="black" stroke="black" points="205.23,-247.5 215.23,-244 205.23,-240.5 205.23,-247.5"/>
+</g>
+<!-- Opt_Glide -->
+<g id="node6" class="node">
+<title>Opt_Glide</title>
+<path fill="none" stroke="#9467bd" stroke-width="2" d="M395.22,-324.8C395.22,-324.8 227.4,-324.8 227.4,-324.8 221.4,-324.8 215.4,-318.8 215.4,-312.8 215.4,-312.8 215.4,-295.2 215.4,-295.2 215.4,-289.2 221.4,-283.2 227.4,-283.2 227.4,-283.2 395.22,-283.2 395.22,-283.2 401.22,-283.2 407.22,-289.2 407.22,-295.2 407.22,-295.2 407.22,-312.8 407.22,-312.8 407.22,-318.8 401.22,-324.8 395.22,-324.8"/>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-308.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 03</text>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-291.4" font-family="Helvetica,sans-Serif" font-size="14.00">Glide Workflow Optimization</text>
+</g>
+<!-- Stage01_Data&#45;&gt;Opt_Glide -->
+<g id="edge2" class="edge">
+<title>Stage01_Data-&gt;Opt_Glide</title>
+<path fill="none" stroke="black" d="M170.07,-266.71C179.25,-269.18 188.47,-271.64 197.29,-274 203.85,-275.75 210.63,-277.56 217.46,-279.38"/>
+<polygon fill="black" stroke="black" points="216.18,-282.66 226.74,-281.85 217.98,-275.89 216.18,-282.66"/>
+</g>
+<!-- Opt_FlexX -->
+<g id="node9" class="node">
+<title>Opt_FlexX</title>
+<path fill="none" stroke="#9467bd" stroke-width="2" d="M396.77,-384.8C396.77,-384.8 225.84,-384.8 225.84,-384.8 219.84,-384.8 213.84,-378.8 213.84,-372.8 213.84,-372.8 213.84,-355.2 213.84,-355.2 213.84,-349.2 219.84,-343.2 225.84,-343.2 225.84,-343.2 396.77,-343.2 396.77,-343.2 402.77,-343.2 408.77,-349.2 408.77,-355.2 408.77,-355.2 408.77,-372.8 408.77,-372.8 408.77,-378.8 402.77,-384.8 396.77,-384.8"/>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-368.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 03</text>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-351.4" font-family="Helvetica,sans-Serif" font-size="14.00">FlexX Workflow Optimization</text>
+</g>
+<!-- Stage01_Data&#45;&gt;Opt_FlexX -->
+<g id="edge3" class="edge">
+<title>Stage01_Data-&gt;Opt_FlexX</title>
+<path fill="none" stroke="black" d="M115.4,-273.84C136.59,-293.53 166.64,-318.47 197.29,-334 200,-335.37 202.77,-336.69 205.6,-337.94"/>
+<polygon fill="black" stroke="black" points="204.07,-341.1 214.64,-341.68 206.74,-334.63 204.07,-341.1"/>
+</g>
+<!-- Opt_GNINA -->
+<g id="node12" class="node">
+<title>Opt_GNINA</title>
+<path fill="none" stroke="#9467bd" stroke-width="2" d="M401.05,-57.8C401.05,-57.8 221.57,-57.8 221.57,-57.8 215.57,-57.8 209.57,-51.8 209.57,-45.8 209.57,-45.8 209.57,-28.2 209.57,-28.2 209.57,-22.2 215.57,-16.2 221.57,-16.2 221.57,-16.2 401.05,-16.2 401.05,-16.2 407.05,-16.2 413.05,-22.2 413.05,-28.2 413.05,-28.2 413.05,-45.8 413.05,-45.8 413.05,-51.8 407.05,-57.8 401.05,-57.8"/>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-41.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 03</text>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-24.4" font-family="Helvetica,sans-Serif" font-size="14.00">GNINA Workflow Optimization</text>
+</g>
+<!-- Stage01_Data&#45;&gt;Opt_GNINA -->
+<g id="edge4" class="edge">
+<title>Stage01_Data-&gt;Opt_GNINA</title>
+<path fill="none" stroke="black" d="M96.44,-214.04C112.32,-174.33 145.76,-104.87 197.29,-67 198.46,-66.14 199.66,-65.3 200.88,-64.49"/>
+<polygon fill="black" stroke="black" points="202.47,-67.61 209.27,-59.48 198.89,-61.59 202.47,-67.61"/>
+</g>
+<!-- Opt_DD -->
+<g id="node15" class="node">
+<title>Opt_DD</title>
+<path fill="none" stroke="#9467bd" stroke-width="2" d="M405.33,-117.8C405.33,-117.8 217.29,-117.8 217.29,-117.8 211.29,-117.8 205.29,-111.8 205.29,-105.8 205.29,-105.8 205.29,-88.2 205.29,-88.2 205.29,-82.2 211.29,-76.2 217.29,-76.2 217.29,-76.2 405.33,-76.2 405.33,-76.2 411.33,-76.2 417.33,-82.2 417.33,-88.2 417.33,-88.2 417.33,-105.8 417.33,-105.8 417.33,-111.8 411.33,-117.8 405.33,-117.8"/>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-101.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 03</text>
+<text xml:space="preserve" text-anchor="middle" x="311.31" y="-84.4" font-family="Helvetica,sans-Serif" font-size="14.00">DiffDock Workflow Optimization</text>
+</g>
+<!-- Stage01_Data&#45;&gt;Opt_DD -->
+<g id="edge5" class="edge">
+<title>Stage01_Data-&gt;Opt_DD</title>
+<path fill="none" stroke="black" d="M131.65,-213.9C171.53,-187.8 228.8,-150.34 267.66,-124.9"/>
+<polygon fill="black" stroke="black" points="269.41,-127.95 275.86,-119.54 265.57,-122.09 269.41,-127.95"/>
+</g>
+<!-- Stage02_Library -->
+<g id="node2" class="node">
+<title>Stage02_Library</title>
+<path fill="none" stroke="#2ca02c" stroke-width="2" d="M656.15,-204.8C656.15,-204.8 472.71,-204.8 472.71,-204.8 466.71,-204.8 460.71,-198.8 460.71,-192.8 460.71,-192.8 460.71,-175.2 460.71,-175.2 460.71,-169.2 466.71,-163.2 472.71,-163.2 472.71,-163.2 656.15,-163.2 656.15,-163.2 662.15,-163.2 668.15,-169.2 668.15,-175.2 668.15,-175.2 668.15,-192.8 668.15,-192.8 668.15,-198.8 662.15,-204.8 656.15,-204.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-188.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 02</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-171.4" font-family="Helvetica,sans-Serif" font-size="14.00">Compound Library Preparation</text>
+</g>
+<!-- VS_Vina -->
+<g id="node5" class="node">
+<title>VS_Vina</title>
+<path fill="none" stroke="#ff7f0e" stroke-width="2" d="M866.49,-264.8C866.49,-264.8 735.97,-264.8 735.97,-264.8 729.97,-264.8 723.97,-258.8 723.97,-252.8 723.97,-252.8 723.97,-235.2 723.97,-235.2 723.97,-229.2 729.97,-223.2 735.97,-223.2 735.97,-223.2 866.49,-223.2 866.49,-223.2 872.49,-223.2 878.49,-229.2 878.49,-235.2 878.49,-235.2 878.49,-252.8 878.49,-252.8 878.49,-258.8 872.49,-264.8 866.49,-264.8"/>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-248.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 05</text>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-231.4" font-family="Helvetica,sans-Serif" font-size="14.00">Vina Virtual Screening</text>
+</g>
+<!-- Stage02_Library&#45;&gt;VS_Vina -->
+<g id="edge6" class="edge">
+<title>Stage02_Library-&gt;VS_Vina</title>
+<path fill="none" stroke="black" d="M654.7,-205.75C661.75,-207.51 668.76,-209.27 675.53,-211 687.45,-214.04 699.99,-217.29 712.34,-220.53"/>
+<polygon fill="black" stroke="black" points="711.1,-223.82 721.66,-222.98 712.88,-217.05 711.1,-223.82"/>
+</g>
+<!-- VS_Glide -->
+<g id="node8" class="node">
+<title>VS_Glide</title>
+<path fill="none" stroke="#ff7f0e" stroke-width="2" d="M868.82,-324.8C868.82,-324.8 733.64,-324.8 733.64,-324.8 727.64,-324.8 721.64,-318.8 721.64,-312.8 721.64,-312.8 721.64,-295.2 721.64,-295.2 721.64,-289.2 727.64,-283.2 733.64,-283.2 733.64,-283.2 868.82,-283.2 868.82,-283.2 874.82,-283.2 880.82,-289.2 880.82,-295.2 880.82,-295.2 880.82,-312.8 880.82,-312.8 880.82,-318.8 874.82,-324.8 868.82,-324.8"/>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-308.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 05</text>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-291.4" font-family="Helvetica,sans-Serif" font-size="14.00">Glide Virtual Screening</text>
+</g>
+<!-- Stage02_Library&#45;&gt;VS_Glide -->
+<g id="edge7" class="edge">
+<title>Stage02_Library-&gt;VS_Glide</title>
+<path fill="none" stroke="black" d="M667.66,-205.7C670.38,-207.34 673.02,-209.1 675.53,-211 701.28,-230.42 686.63,-253.5 711.53,-274 712.47,-274.78 713.43,-275.53 714.41,-276.27"/>
+<polygon fill="black" stroke="black" points="712.16,-278.97 722.44,-281.55 716.01,-273.13 712.16,-278.97"/>
+</g>
+<!-- VS_FlexX -->
+<g id="node11" class="node">
+<title>VS_FlexX</title>
+<path fill="none" stroke="#ff7f0e" stroke-width="2" d="M870.37,-384.8C870.37,-384.8 732.08,-384.8 732.08,-384.8 726.08,-384.8 720.08,-378.8 720.08,-372.8 720.08,-372.8 720.08,-355.2 720.08,-355.2 720.08,-349.2 726.08,-343.2 732.08,-343.2 732.08,-343.2 870.37,-343.2 870.37,-343.2 876.37,-343.2 882.37,-349.2 882.37,-355.2 882.37,-355.2 882.37,-372.8 882.37,-372.8 882.37,-378.8 876.37,-384.8 870.37,-384.8"/>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-368.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 05</text>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-351.4" font-family="Helvetica,sans-Serif" font-size="14.00">FlexX Virtual Screening</text>
+</g>
+<!-- Stage02_Library&#45;&gt;VS_FlexX -->
+<g id="edge8" class="edge">
+<title>Stage02_Library-&gt;VS_FlexX</title>
+<path fill="none" stroke="black" d="M668.77,-205.31C671.14,-207.06 673.4,-208.96 675.53,-211 716.69,-250.38 672.1,-292.9 711.53,-334 711.8,-334.29 712.08,-334.57 712.36,-334.85"/>
+<polygon fill="black" stroke="black" points="710.11,-337.53 720.02,-341.28 714.61,-332.17 710.11,-337.53"/>
+</g>
+<!-- VS_GNINA -->
+<g id="node14" class="node">
+<title>VS_GNINA</title>
+<path fill="none" stroke="#ff7f0e" stroke-width="2" d="M878.93,-117.8C878.93,-117.8 723.53,-117.8 723.53,-117.8 717.53,-117.8 711.53,-111.8 711.53,-105.8 711.53,-105.8 711.53,-88.2 711.53,-88.2 711.53,-82.2 717.53,-76.2 723.53,-76.2 723.53,-76.2 878.93,-76.2 878.93,-76.2 884.93,-76.2 890.93,-82.2 890.93,-88.2 890.93,-88.2 890.93,-105.8 890.93,-105.8 890.93,-111.8 884.93,-117.8 878.93,-117.8"/>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-101.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 05</text>
+<text xml:space="preserve" text-anchor="middle" x="801.23" y="-84.4" font-family="Helvetica,sans-Serif" font-size="14.00">DiffDock Virtual Screening</text>
+</g>
+<!-- Stage02_Library&#45;&gt;VS_GNINA -->
+<g id="edge9" class="edge">
+<title>Stage02_Library-&gt;VS_GNINA</title>
+<path fill="none" stroke="black" d="M665.93,-162.24C669.18,-161.2 672.39,-160.12 675.53,-159 701.8,-149.64 729.71,-136.13 752.45,-124.11"/>
+<polygon fill="black" stroke="black" points="754.02,-127.24 761.17,-119.42 750.71,-121.07 754.02,-127.24"/>
+</g>
+<!-- Eval_Vina -->
+<g id="node4" class="node">
+<title>Eval_Vina</title>
+<path fill="none" stroke="#8c564b" stroke-width="2" d="M651.09,-264.8C651.09,-264.8 477.77,-264.8 477.77,-264.8 471.77,-264.8 465.77,-258.8 465.77,-252.8 465.77,-252.8 465.77,-235.2 465.77,-235.2 465.77,-229.2 471.77,-223.2 477.77,-223.2 477.77,-223.2 651.09,-223.2 651.09,-223.2 657.09,-223.2 663.09,-229.2 663.09,-235.2 663.09,-235.2 663.09,-252.8 663.09,-252.8 663.09,-258.8 657.09,-264.8 651.09,-264.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-248.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 04</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-231.4" font-family="Helvetica,sans-Serif" font-size="14.00">Vina Performance Evaluation</text>
+</g>
+<!-- Opt_Vina&#45;&gt;Eval_Vina -->
+<g id="edge10" class="edge">
+<title>Opt_Vina-&gt;Eval_Vina</title>
+<path fill="none" stroke="black" d="M405.82,-244C421.3,-244 437.48,-244 453.33,-244"/>
+<polygon fill="black" stroke="black" points="453.29,-247.5 463.29,-244 453.29,-240.5 453.29,-247.5"/>
+</g>
+<!-- Eval_Vina&#45;&gt;VS_Vina -->
+<g id="edge11" class="edge">
+<title>Eval_Vina-&gt;VS_Vina</title>
+<path fill="none" stroke="black" d="M663.99,-244C679.84,-244 696.17,-244 711.76,-244"/>
+<polygon fill="black" stroke="black" points="711.46,-247.5 721.46,-244 711.46,-240.5 711.46,-247.5"/>
+</g>
+<!-- VS_Merge -->
+<g id="node17" class="node">
+<title>VS_Merge</title>
+<path fill="none" stroke="#e377c2" stroke-width="2" d="M1028.97,-292C1028.97,-292 938.93,-292 938.93,-292 932.93,-292 926.93,-286 926.93,-280 926.93,-280 926.93,-268 926.93,-268 926.93,-262 932.93,-256 938.93,-256 938.93,-256 1028.97,-256 1028.97,-256 1034.97,-256 1040.97,-262 1040.97,-268 1040.97,-268 1040.97,-280 1040.97,-280 1040.97,-286 1034.97,-292 1028.97,-292"/>
+<text xml:space="preserve" text-anchor="middle" x="983.95" y="-269.8" font-family="Helvetica,sans-Serif" font-size="14.00">Consensus Hits</text>
+</g>
+<!-- VS_Vina&#45;&gt;VS_Merge -->
+<g id="edge20" class="edge">
+<title>VS_Vina-&gt;VS_Merge</title>
+<path fill="none" stroke="black" d="M879.39,-256.81C891.12,-258.76 903.15,-260.75 914.68,-262.67"/>
+<polygon fill="black" stroke="black" points="914.06,-266.11 924.5,-264.3 915.21,-259.21 914.06,-266.11"/>
+</g>
+<!-- Eval_Glide -->
+<g id="node7" class="node">
+<title>Eval_Glide</title>
+<path fill="none" stroke="#8c564b" stroke-width="2" d="M653.42,-324.8C653.42,-324.8 475.44,-324.8 475.44,-324.8 469.44,-324.8 463.44,-318.8 463.44,-312.8 463.44,-312.8 463.44,-295.2 463.44,-295.2 463.44,-289.2 469.44,-283.2 475.44,-283.2 475.44,-283.2 653.42,-283.2 653.42,-283.2 659.42,-283.2 665.42,-289.2 665.42,-295.2 665.42,-295.2 665.42,-312.8 665.42,-312.8 665.42,-318.8 659.42,-324.8 653.42,-324.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-308.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 04</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-291.4" font-family="Helvetica,sans-Serif" font-size="14.00">Glide Performance Evaluation</text>
+</g>
+<!-- Opt_Glide&#45;&gt;Eval_Glide -->
+<g id="edge12" class="edge">
+<title>Opt_Glide-&gt;Eval_Glide</title>
+<path fill="none" stroke="black" d="M407.96,-304C422.07,-304 436.72,-304 451.12,-304"/>
+<polygon fill="black" stroke="black" points="451.1,-307.5 461.1,-304 451.1,-300.5 451.1,-307.5"/>
+</g>
+<!-- Eval_Glide&#45;&gt;VS_Glide -->
+<g id="edge13" class="edge">
+<title>Eval_Glide-&gt;VS_Glide</title>
+<path fill="none" stroke="black" d="M666.37,-304C680.79,-304 695.54,-304 709.74,-304"/>
+<polygon fill="black" stroke="black" points="709.48,-307.5 719.48,-304 709.48,-300.5 709.48,-307.5"/>
+</g>
+<!-- VS_Glide&#45;&gt;VS_Merge -->
+<g id="edge21" class="edge">
+<title>VS_Glide-&gt;VS_Merge</title>
+<path fill="none" stroke="black" d="M881.76,-290.8C892.86,-288.95 904.19,-287.07 915.05,-285.27"/>
+<polygon fill="black" stroke="black" points="915.39,-288.76 924.68,-283.67 914.25,-281.86 915.39,-288.76"/>
+</g>
+<!-- Eval_FlexX -->
+<g id="node10" class="node">
+<title>Eval_FlexX</title>
+<path fill="none" stroke="#8c564b" stroke-width="2" d="M654.97,-384.8C654.97,-384.8 473.89,-384.8 473.89,-384.8 467.89,-384.8 461.89,-378.8 461.89,-372.8 461.89,-372.8 461.89,-355.2 461.89,-355.2 461.89,-349.2 467.89,-343.2 473.89,-343.2 473.89,-343.2 654.97,-343.2 654.97,-343.2 660.97,-343.2 666.97,-349.2 666.97,-355.2 666.97,-355.2 666.97,-372.8 666.97,-372.8 666.97,-378.8 660.97,-384.8 654.97,-384.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-368.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 04</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-351.4" font-family="Helvetica,sans-Serif" font-size="14.00">FlexX Performance Evaluation</text>
+</g>
+<!-- Opt_FlexX&#45;&gt;Eval_FlexX -->
+<g id="edge14" class="edge">
+<title>Opt_FlexX-&gt;Eval_FlexX</title>
+<path fill="none" stroke="black" d="M409.76,-364C422.9,-364 436.47,-364 449.86,-364"/>
+<polygon fill="black" stroke="black" points="449.54,-367.5 459.54,-364 449.54,-360.5 449.54,-367.5"/>
+</g>
+<!-- Eval_FlexX&#45;&gt;VS_FlexX -->
+<g id="edge15" class="edge">
+<title>Eval_FlexX-&gt;VS_FlexX</title>
+<path fill="none" stroke="black" d="M667.73,-364C681.11,-364 694.76,-364 707.96,-364"/>
+<polygon fill="black" stroke="black" points="707.92,-367.5 717.92,-364 707.92,-360.5 707.92,-367.5"/>
+</g>
+<!-- VS_FlexX&#45;&gt;VS_Merge -->
+<g id="edge22" class="edge">
+<title>VS_FlexX-&gt;VS_Merge</title>
+<path fill="none" stroke="black" d="M880.15,-342.24C886.61,-339.72 892.94,-336.97 898.93,-334 917.55,-324.77 936.53,-311.59 951.74,-299.94"/>
+<polygon fill="black" stroke="black" points="953.78,-302.78 959.49,-293.86 949.46,-297.28 953.78,-302.78"/>
+</g>
+<!-- Eval_GNINA -->
+<g id="node13" class="node">
+<title>Eval_GNINA</title>
+<path fill="none" stroke="#8c564b" stroke-width="2" d="M659.25,-57.8C659.25,-57.8 469.61,-57.8 469.61,-57.8 463.61,-57.8 457.61,-51.8 457.61,-45.8 457.61,-45.8 457.61,-28.2 457.61,-28.2 457.61,-22.2 463.61,-16.2 469.61,-16.2 469.61,-16.2 659.25,-16.2 659.25,-16.2 665.25,-16.2 671.25,-22.2 671.25,-28.2 671.25,-28.2 671.25,-45.8 671.25,-45.8 671.25,-51.8 665.25,-57.8 659.25,-57.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-41.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 04</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-24.4" font-family="Helvetica,sans-Serif" font-size="14.00">GNINA Performance Evaluation</text>
+</g>
+<!-- Opt_GNINA&#45;&gt;Eval_GNINA -->
+<g id="edge16" class="edge">
+<title>Opt_GNINA-&gt;Eval_GNINA</title>
+<path fill="none" stroke="black" d="M413.73,-37C424.12,-37 434.75,-37 445.3,-37"/>
+<polygon fill="black" stroke="black" points="445.2,-40.5 455.2,-37 445.2,-33.5 445.2,-40.5"/>
+</g>
+<!-- Eval_GNINA&#45;&gt;VS_GNINA -->
+<g id="edge17" class="edge">
+<title>Eval_GNINA-&gt;VS_GNINA</title>
+<path fill="none" stroke="black" d="M650.53,-58.75C667.92,-63.19 686.33,-67.9 704.08,-72.43"/>
+<polygon fill="black" stroke="black" points="703,-75.77 713.56,-74.85 704.74,-68.99 703,-75.77"/>
+</g>
+<!-- VS_GNINA&#45;&gt;VS_Merge -->
+<g id="edge23" class="edge">
+<title>VS_GNINA-&gt;VS_Merge</title>
+<path fill="none" stroke="black" d="M824.39,-118.7C857.46,-151.09 919.67,-212.02 955.55,-247.16"/>
+<polygon fill="black" stroke="black" points="952.97,-249.53 962.56,-254.03 957.86,-244.53 952.97,-249.53"/>
+</g>
+<!-- Eval_DD -->
+<g id="node16" class="node">
+<title>Eval_DD</title>
+<path fill="none" stroke="#8c564b" stroke-width="2" d="M663.53,-117.8C663.53,-117.8 465.33,-117.8 465.33,-117.8 459.33,-117.8 453.33,-111.8 453.33,-105.8 453.33,-105.8 453.33,-88.2 453.33,-88.2 453.33,-82.2 459.33,-76.2 465.33,-76.2 465.33,-76.2 663.53,-76.2 663.53,-76.2 669.53,-76.2 675.53,-82.2 675.53,-88.2 675.53,-88.2 675.53,-105.8 675.53,-105.8 675.53,-111.8 669.53,-117.8 663.53,-117.8"/>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-101.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 04</text>
+<text xml:space="preserve" text-anchor="middle" x="564.43" y="-84.4" font-family="Helvetica,sans-Serif" font-size="14.00">DiffDock Performance Evaluation</text>
+</g>
+<!-- Opt_DD&#45;&gt;Eval_DD -->
+<g id="edge18" class="edge">
+<title>Opt_DD-&gt;Eval_DD</title>
+<path fill="none" stroke="black" d="M418.08,-97C425.73,-97 433.49,-97 441.23,-97"/>
+<polygon fill="black" stroke="black" points="441.03,-100.5 451.03,-97 441.03,-93.5 441.03,-100.5"/>
+</g>
+<!-- Eval_DD&#45;&gt;VS_GNINA -->
+<g id="edge19" class="edge">
+<title>Eval_DD-&gt;VS_GNINA</title>
+<path fill="none" stroke="black" d="M676.3,-97C683.95,-97 691.63,-97 699.22,-97"/>
+<polygon fill="black" stroke="black" points="699.14,-100.5 709.14,-97 699.14,-93.5 699.14,-100.5"/>
+</g>
+<!-- MD -->
+<g id="node18" class="node">
+<title>MD</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="2" d="M1207,-337.2C1207,-337.2 1088.97,-337.2 1088.97,-337.2 1082.97,-337.2 1076.97,-331.2 1076.97,-325.2 1076.97,-325.2 1076.97,-290.8 1076.97,-290.8 1076.97,-284.8 1082.97,-278.8 1088.97,-278.8 1088.97,-278.8 1207,-278.8 1207,-278.8 1213,-278.8 1219,-284.8 1219,-290.8 1219,-290.8 1219,-325.2 1219,-325.2 1219,-331.2 1213,-337.2 1207,-337.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1147.99" y="-320.6" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 06 </text>
+<text xml:space="preserve" text-anchor="middle" x="1147.99" y="-303.8" font-family="Helvetica,sans-Serif" font-size="14.00">Molecular Dynamics</text>
+<text xml:space="preserve" text-anchor="middle" x="1147.99" y="-287" font-family="Helvetica,sans-Serif" font-size="14.00">Simulations</text>
+</g>
+<!-- VS_Merge&#45;&gt;MD -->
+<g id="edge24" class="edge">
+<title>VS_Merge-&gt;MD</title>
+<path fill="none" stroke="black" d="M1041.62,-285.89C1049.19,-287.48 1057.07,-289.13 1064.96,-290.79"/>
+<polygon fill="black" stroke="black" points="1064.11,-294.19 1074.62,-292.81 1065.55,-287.34 1064.11,-294.19"/>
+</g>
+<!-- Cofold -->
+<g id="node19" class="node">
+<title>Cofold</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="2" d="M1178.22,-260.8C1178.22,-260.8 1117.75,-260.8 1117.75,-260.8 1111.75,-260.8 1105.75,-254.8 1105.75,-248.8 1105.75,-248.8 1105.75,-231.2 1105.75,-231.2 1105.75,-225.2 1111.75,-219.2 1117.75,-219.2 1117.75,-219.2 1178.22,-219.2 1178.22,-219.2 1184.22,-219.2 1190.22,-225.2 1190.22,-231.2 1190.22,-231.2 1190.22,-248.8 1190.22,-248.8 1190.22,-254.8 1184.22,-260.8 1178.22,-260.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1147.99" y="-244.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 06 </text>
+<text xml:space="preserve" text-anchor="middle" x="1147.99" y="-227.4" font-family="Helvetica,sans-Serif" font-size="14.00">Co-Folding</text>
+</g>
+<!-- VS_Merge&#45;&gt;Cofold -->
+<g id="edge25" class="edge">
+<title>VS_Merge-&gt;Cofold</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1041.62,-262.11C1058.53,-258.56 1076.99,-254.69 1093.68,-251.19"/>
+<polygon fill="black" stroke="black" points="1094.35,-254.62 1103.42,-249.14 1092.92,-247.77 1094.35,-254.62"/>
+</g>
+<!-- HitSelect -->
+<g id="node20" class="node">
+<title>HitSelect</title>
+<path fill="none" stroke="#17becf" stroke-width="2" d="M1349.26,-303.2C1349.26,-303.2 1267,-303.2 1267,-303.2 1261,-303.2 1255,-297.2 1255,-291.2 1255,-291.2 1255,-256.8 1255,-256.8 1255,-250.8 1261,-244.8 1267,-244.8 1267,-244.8 1349.26,-244.8 1349.26,-244.8 1355.26,-244.8 1361.26,-250.8 1361.26,-256.8 1361.26,-256.8 1361.26,-291.2 1361.26,-291.2 1361.26,-297.2 1355.26,-303.2 1349.26,-303.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1308.13" y="-286.6" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 07</text>
+<text xml:space="preserve" text-anchor="middle" x="1308.13" y="-269.8" font-family="Helvetica,sans-Serif" font-size="14.00">Hit Selection</text>
+<text xml:space="preserve" text-anchor="middle" x="1308.13" y="-253" font-family="Helvetica,sans-Serif" font-size="14.00">&amp; Prioritization</text>
+</g>
+<!-- MD&#45;&gt;HitSelect -->
+<g id="edge26" class="edge">
+<title>MD-&gt;HitSelect</title>
+<path fill="none" stroke="black" d="M1219.73,-292.79C1227.58,-291.1 1235.54,-289.39 1243.29,-287.73"/>
+<polygon fill="black" stroke="black" points="1243.95,-291.16 1252.99,-285.64 1242.48,-284.32 1243.95,-291.16"/>
+</g>
+<!-- Cofold&#45;&gt;HitSelect -->
+<g id="edge27" class="edge">
+<title>Cofold-&gt;HitSelect</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M1190.95,-249.02C1207.02,-252.48 1225.72,-256.5 1243.37,-260.29"/>
+<polygon fill="black" stroke="black" points="1242.2,-263.62 1252.71,-262.3 1243.67,-256.78 1242.2,-263.62"/>
+</g>
+<!-- Invitro -->
+<g id="node21" class="node">
+<title>Invitro</title>
+<path fill="none" stroke="#bcbd22" stroke-width="2" d="M1561.53,-294.8C1561.53,-294.8 1409.26,-294.8 1409.26,-294.8 1403.26,-294.8 1397.26,-288.8 1397.26,-282.8 1397.26,-282.8 1397.26,-265.2 1397.26,-265.2 1397.26,-259.2 1403.26,-253.2 1409.26,-253.2 1409.26,-253.2 1561.53,-253.2 1561.53,-253.2 1567.53,-253.2 1573.53,-259.2 1573.53,-265.2 1573.53,-265.2 1573.53,-282.8 1573.53,-282.8 1573.53,-288.8 1567.53,-294.8 1561.53,-294.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1485.4" y="-278.2" font-family="Helvetica,sans-Serif" font-size="14.00">Stage 08</text>
+<text xml:space="preserve" text-anchor="middle" x="1485.4" y="-261.4" font-family="Helvetica,sans-Serif" font-size="14.00">In Vitro Bioactivity Assays</text>
+</g>
+<!-- HitSelect&#45;&gt;Invitro -->
+<g id="edge28" class="edge">
+<title>HitSelect-&gt;Invitro</title>
+<path fill="none" stroke="black" d="M1362.19,-274C1369.59,-274 1377.38,-274 1385.29,-274"/>
+<polygon fill="black" stroke="black" points="1385.02,-277.5 1395.02,-274 1385.02,-270.5 1385.02,-277.5"/>
+</g>
+</g>
+</svg>

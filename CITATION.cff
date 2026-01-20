@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "VS-Pipeline: Virtual Screening Workflow for Lead Compound Discovery"
+version: "1.0.0"
+doi: "-"
+authors:
+  - family-names: "Yılmaz"
+    given-names: "Emine Yekta"
+  - family-names: "Doğan"
+    given-names: "Tunca"
+    role: "Advisor"
+  - family-names: "Olğaç"
+    given-names: "Abdurrahman"
+    role: "Advisor"
+date-released: 2026-01-01
+license: "GPL-2.0"

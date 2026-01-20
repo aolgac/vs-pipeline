@@ -1,0 +1,21 @@
+name: vs-pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - biopython
+  - rdkit
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - pymol-open-source
+  - pip
+  - pip:
+      - posebusters
+      - rdkit-pypi
+      - chembl_webresource_client
