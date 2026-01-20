@@ -1,0 +1,5 @@
+actives_csv: "/path/to/02_Validation/flexx/flexx_results_actives.csv"
+decoys_csv: "/path/to/02_Validation/flexx/flexx_results_decoys.csv"
+output_png: "/path/to/02_Validation/flexx/ROC_Curve_AUC_flexx.png"
+n_actives: 10
+n_decoys: 100

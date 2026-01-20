@@ -1,0 +1,5 @@
+actives_file: "diffdock_gnina_results_actives.csv"
+decoys_file: "diffdock_gnina_results_decoys.csv"
+output_plot: "ROC_Curve_AUC_diffdock_gnina.png"
+n_actives: 10
+n_decoys: 100

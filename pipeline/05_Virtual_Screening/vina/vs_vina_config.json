@@ -1,0 +1,23 @@
+{
+    "log_dir": "logs",
+    "csv_file": "ligands.csv",
+    "mae_dir": "mae_files",
+    "extracted_mae_dir": "mae_extracted",
+    "mol2_output_dir": "mol2",
+    "pdbqt_output_dir": "pdbqt",
+    "protein_dir": "proteins",
+    "docking_output_dir": "docking_results",
+    "checkpoints_dir": "checkpoints",
+    "vina_path": "vina",
+    "schrodinger_path": "/path/to/schrodinger",
+    "mgltools_path": "/path/to/MGLTools",
+    "grid_box": {
+        "center_x": 0,
+        "center_y": 0,
+        "center_z": 0,
+        "size_x": 20,
+        "size_y": 20,
+        "size_z": 20
+    },
+    "num_cpus": 56
+}

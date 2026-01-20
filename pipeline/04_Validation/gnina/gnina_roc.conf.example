@@ -1,0 +1,5 @@
+actives_file_path: "/path/to/02_Validation/gnina/gnina_actives_results.csv"
+decoys_file_path: "/path/to/02_Validation/gnina/gnina_decoys_results.csv"
+save_path: "/path/to/02_Validation/gnina/ROC_Curve_AUC_gnina.png"
+n_actives: 10
+n_decoys: 100

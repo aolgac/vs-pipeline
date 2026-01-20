@@ -1,0 +1,7 @@
+actives_file_path: "/path/to/02_Validation/vina/vina_results_actives.csv"
+decoys_file_path: "/path/to/02_Validation/vina/vina_results_decoys.csv"
+save_path: "/path/to/02_Validation/vina/ROC_Curve_AUC_vina.png"
+
+# Optional: specify number of actives and decoys
+n_actives: 10
+n_decoys: 100

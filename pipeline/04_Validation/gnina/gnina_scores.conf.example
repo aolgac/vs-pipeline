@@ -1,0 +1,5 @@
+# Folder containing SDF files (actives or decoys)
+sdf_folder: "/path/to/02_Validation/gnina/docking_results/actives"
+
+# Output CSV file
+output_csv: "/path/to/02_Validation/gnina/gnina_results_actives.csv"

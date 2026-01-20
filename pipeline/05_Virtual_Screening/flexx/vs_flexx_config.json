@@ -1,0 +1,14 @@
+{
+  "input_mae_dir": "mae",
+  "output_base_dir": "vs_output",
+  "output_sdf_dir": "vs_output/sdf",
+  "merged_sdf_path": "vs_output/all_ligands.sdf",
+  "checkpoint_dir": "checkpoints",
+  "checkpoint_prefix": "vs_run",
+  "input_sdf": "vs_output/all_ligands.sdf",
+  "protein_path": "Pro_Ref_lig/pro.pdb",
+  "reference_ligand": "Pro_Ref_lig/lig.sdf",
+  "flexx_executable": "path/to/flexx_executable",
+  "docking_output_sdf_name": "vs_run_flexx_docked.sdf",
+  "docking_output_dir": "vs_output/docking_results"
+}

@@ -1,0 +1,6 @@
+protein_dir: "/path/to/02_Validation/diffdock/proteins"
+ligand_dir: "/path/to/02_Validation/diffdock/actives"
+log_dir: "./ref_logs_df_gnina_actives"
+results_dir: "./results_actives"
+seed: 16019
+minimize: true

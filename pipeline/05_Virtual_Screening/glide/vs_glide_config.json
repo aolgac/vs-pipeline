@@ -1,0 +1,18 @@
+{
+  "mae_dir": "mae",
+  "copied_mae_dir": "copied_mae",
+  "checkpoints_dir": "checkpoints",
+  "glide_path": "path/to/glide",
+  "log_dir": "logs",
+  "input_scripts_dir": "input_scripts",
+  "grid_file": "grids/grid.zip",
+  "docking_output_dir": "docking_results",
+  "output_files_dir": "input_scripts",
+  "checkpoint_file_name": "failed_jobs.chk",
+  "docking_results_dir": "docking_results",
+  "step_scripts": {
+    "step1": "pipeline_step1.py",
+    "step2": "pipeline_step2.py",
+    "step3": "pipeline_step3.py"
+  }
+}

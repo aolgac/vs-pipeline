@@ -1,0 +1,9 @@
+{
+  "results_dir": "path/to/diffdock_results",
+  "copied_dir": "path/to/gnina/copied",
+  "rescored_dir": "path/to/gnina/rescored",
+  "chk_dir": "path/to/gnina/checkpoints",
+  "protein_file": "path/to/protein/prepared_protein.pdb",
+  "gnina_executable": "gnina",
+  "parallel": 24
+}

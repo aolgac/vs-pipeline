@@ -1,0 +1,5 @@
+actives_file: "/path/to/02_Validation/glide/actives/glide_results_actives.csv"
+decoys_file: "/path/to/02_Validation/glide/decoys/glide_results_decoys.csv"
+output_figure: "/path/to/02_Validation/glide/ROC_Curve_AUC_glide.png"
+expected_actives: 10
+expected_decoys: 100

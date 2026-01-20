@@ -1,0 +1,18 @@
+{
+  "mae_dir": "mae",
+  "csv_file": "ligand_list.csv",
+
+  "extracted_mae_dir": "work/extracted_mae",
+  "mol2_output_dir": "work/mol2",
+
+  "checkpoint_dir": "checkpoints",
+  "log_dir": "logs",
+
+  "protein_file": "protein/protein.pdb",
+
+  "final_csv_output": "diffdock_inputs.csv",
+
+  "slurm_dir": "slurm",
+  "slurm_output_dir": "diffdock_outputs",
+  "slurm_script_name": "diffdock_job.sh"
+}

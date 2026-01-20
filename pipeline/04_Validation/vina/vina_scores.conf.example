@@ -1,0 +1,5 @@
+# Directory containing .pdbqt files (actives or decoys)
+pdbqt_dir: "/path/to/02_Validation/vina/docking_results/actives"
+
+# Output CSV file path
+output_csv: "/path/to/02_Validation/vina/vina_results_actives.csv"

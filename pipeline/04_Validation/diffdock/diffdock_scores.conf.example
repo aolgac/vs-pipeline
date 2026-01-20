@@ -1,0 +1,2 @@
+sdf_folder: "/path/to/02_Validation/diffdock/results_actives"
+output_csv: "diffdock_gnina_results_actives.csv"

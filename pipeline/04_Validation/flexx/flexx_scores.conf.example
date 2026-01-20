@@ -1,0 +1,2 @@
+sdf_dir: "/path/to/02_Validation/flexx/actives"   # Can point to actives or decoys
+output_csv: "/path/to/02_Validation/flexx/flexx_results_actives.csv"
